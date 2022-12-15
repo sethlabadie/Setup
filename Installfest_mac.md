@@ -1,7 +1,7 @@
 # Mac Installfest
 
 ## What we'll cover
-We are going to install everything that you will need for this course. Please do this in order!
+We are going to install everything that you will need to setup your Mac. Please do this in order!
 
 1. XCode
 1. Visual Studio Code
