@@ -15,6 +15,39 @@
   - MAIL – This shows the location of where the current user’s mail is stored.\
 To display all the environment variables defined for a current session, use the shell command `env`.
 
-# Shell Config Files
 
-Upon startup, the shell looks for config files. The order in which it looks depends on your computer and type of shell.
+## Environment Variables
+
+The command used to display all the environment variables defined for a current session is `env`.
+
+There are two ways to print a single already-defined environment variable:\
+`printenv VARIABLE_NAME`\
+`echo $VARIABLE_NAME`\
+For example, to see the shell that you are currently using:\
+`echo $SHELL
+
+The basic syntax to define an environment variable is as follows:\
+`export VARIABLE_NAME=value`\
+You can also create a global variable using the same syntax:\
+`export GLOBAL_VARIABLE='value'`
+
+The variables defined using this method are stored for the current session only. They won't be available for the next session.
+
+## Shell Config Files
+
+Environment variables, aliases, and path definitions are permanently stored by putting them in the shell config files. Upon startup, the shell looks for config files and executes the contents in order. The order in which it looks for config files depends on your computer and type of shell.
+
+For a Mac using BASH, the config files are read in order: /etc/paths; /etc/paths.d; ~/.bash_profile.\
+In the ~/.bash_profile, there are two ways to add paths to the PATH variable.\
+`export PATH="/some/location/bin:$PATH"` tells the shell to put this path at the front of the PATH variable, even in front of the paths located in /etc/paths and /etc/paths.d.\
+`export PATH="$PATH:/some/location/bin"` tells the shell to put this path at the back of the PATH variable.\
+Print and review the PATH variable by using `echo $PATH | tr : '\n'`. BASH will look for applications in the order of the PATH directories and will run the first version it finds.
+
+For a Mac using ZSH, the config files are read in order: /etc/paths; /etc/paths.d;
+
+
+
+
+
+
+
