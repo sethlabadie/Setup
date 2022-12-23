@@ -46,7 +46,7 @@ Print and review the PATH variable by using `echo $PATH | tr : '\n'`. BASH will 
 For a Mac using ZSH, the config files are read in order: /etc/paths; /etc/paths.d;
 
 
-
+Managing the order of the paths in the PATH variable is important to ensure the shell will run the correct application.
 
 
 
