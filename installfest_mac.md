@@ -3,13 +3,17 @@
 ## What we'll cover
 We are going to install everything that you will need to setup your Mac. Please do this in order!
 
-1. XCode Tools
-2. Homebrew
-3. Visual Studio Code
-4. Homebrew
-5. Python
-6. Node
-7. git
+1. Setup Script
+2. XCode Tools
+3. Homebrew
+4. Visual Studio Code
+5. Homebrew
+6. Python
+7. Node
+8. git
+
+## Setup Script
+Running the setup script in terminal will install most software you will need. If you do this, then you can skip the following command line instructions and instead go to the individual software setup instructions.
 
 ## Install XCode Tools
 
