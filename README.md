@@ -1,8 +1,7 @@
 # Installfest
 
 ### Computer Setup (Mac, Linux, & Windows)
-- [Slack](https://slack.com/downloads) - for all communication purposes
-- [Zoom](https://zoom.us/support/download)
+
 
 ### Mac Setup
 - Make sure you have an Apple ID
