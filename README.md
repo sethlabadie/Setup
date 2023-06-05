@@ -6,7 +6,7 @@
 
 ### Mac Setup
 - Make sure you have an Apple ID
-- Download XCode from the Mac App Store
+- Optional: Download XCode from the Mac App Store. This IDE is primarily for Mac development in Swift, but can be used with other languages, although not ideally.
 - Ensure that you're running the most recent operating system. You can check your version by going to "System Preferences" and clicking on "Software Update"
 - [Complete Installfest (MacOS)](./installfest_mac.md)
 
