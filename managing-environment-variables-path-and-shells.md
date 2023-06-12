@@ -3,7 +3,7 @@
 
 ## Terms to know:
 
-- Terminal - the software with which you use the command line.
+- Terminal - the software with which you use the command line. It is actually a terminal emulator--a program that emulates a video terminal within some other display architecture. The terminal emulator provides a way to run a shell, which in turn runs command line programs. The terminal emulator is the window in which you type commands. The shell is the program that interprets the commands and runs the programs. In the old days, the terminal was a physical device, but now it is a software program.
 - Shell - the command line software that runs in the terminal; can implement shell scripting and run programs.
 - Shell profiles / config files - shell scripts which the shell runs upon startup which tell it how to set up the environment--such as how to set the path and what to assign to environment variables.
 - Path - the set of locations, which are given to the shell to look for applications.
