@@ -37,6 +37,7 @@ touch ~/.config/bash/.bash_profile # Create .bash_profile in .config/bash
 touch ~/.config/bash/.bashrc # Create .bashrc in .config/bash
 ln -s ~/.config/bash/.bash_profile ~/.bash_profile # Symlink .bash_profile to $HOME
 ln -s ~/.config/bash/.bashrc ~/.bashrc # Symlink .bashrc to $HOME
+ln -s ~/.config/bash/.profile ~/.profile # Symlink .profile to $HOME
 chsh -s /usr/local/bin/bash # Change default shell to bash
 
 
