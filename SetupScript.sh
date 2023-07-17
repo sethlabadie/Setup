@@ -238,5 +238,16 @@ brew install tcpdump # tcpdump is a common packet analyzer that runs under the c
 brew install iperf # iperf is a network testing tool that can create TCP and UDP data connections and measure the throughput of a network that is carrying them
 
 
+# ############################
+# install non-brew packages  #
+# ############################
+#
+# Install dysk
+wget https://github.com/Canop/dysk/releases/download/v2.7.1/dysk_2.7.1.zip
+unzip dysk_2.7.1.zip
+sudo mv build/x86_64-linux/dysk /usr/local/bin/
+sudo chmod +x /usr/local/bin/dysk
+
+
 # install mojo when it's available (high performant superscript version of Python)
 # brew install --cask mojo (or whatever it's called)
