@@ -15,6 +15,9 @@ We are going to install everything that you will need to setup your Mac. Please 
 ## Setup Script
 Running the setup script in terminal will install most software you will need. If you do this, then you can skip the following command line instructions and instead go to the individual software setup instructions.
 
+## Modify Function Key Use
+Go to System Settings/Keyboard/Keyboard Shortcuts/Function Keys, ensure that the toggle "Use F1, F2, etc. keys as standard function keys" is toggled.
+
 ## Install XCode Tools
 
 Run the following command in the terminal.
