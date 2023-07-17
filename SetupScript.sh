@@ -55,6 +55,8 @@ echo 'export CPPFLAGS="-I/usr/local/opt/curl/include"' >> ~/.bash_profile
 echo 'export PKG_CONFIG_PATH="/usr/local/opt/curl/lib/pkgconfig"' >> ~/.bash_profile
 # Install wget
 brew install wget
+touch ~/.config/wget/.wgetrc # Create .wgetrc in .config/wget
+echo 'export WGETRC="$XDG_CONFIG_HOME/wget/.wgetrc"' >> ~/.profile
 # Install git
 brew install git # Git is a distributed version-control system for tracking changes in source code during software development
 brew install gh # GitHub CLI is a command line tool that enables you to use GitHub functionality in your terminal, including pull requests, issues, and releases
