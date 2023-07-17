@@ -243,7 +243,11 @@ brew install iperf # iperf is a network testing tool that can create TCP and UDP
 # ############################
 #
 # Install dysk
+# probably won't work; is actually a tool for Linux
+# https://dystroy.org/dysk/
+
 wget https://github.com/Canop/dysk/releases/download/v2.7.1/dysk_2.7.1.zip
+wget https://dystroy.org/dysk/download/x86_64-linux/dysk
 unzip dysk_2.7.1.zip
 sudo mv build/x86_64-linux/dysk /usr/local/bin/
 sudo chmod +x /usr/local/bin/dysk
