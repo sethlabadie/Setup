@@ -35,18 +35,22 @@ A light is important to illuminate your workspace. BenQ [Blue Genie LED Desk Lam
 For work, I need to insert a security card in order to access certain websites. For this, I use the [Cherry SmartTerminal ST-1144](https://www.cherryamericas.com/smartterminal-st-1144). It has a hefty weight and sits nicely on my desktop. Another option might be the HID [Omnikey 3121](https://www.hidglobal.com/products/omnikey-3121). Follow the advice [here for USB](https://militarycac.com/usbreaders.htm) and [here for USB-C](https://militarycac.com/usbcreaders.htm). Don't buy any cheap Chinese crap on Amazon, because you never know what malware [it contains](https://krebsonsecurity.com/2022/05/when-your-smart-id-card-reader-comes-with-malware/comment-page-1/).
 
 ### Travel / Remote Work System
+
 My travel package will include a Mac Book Pro. No purchase yet.
+
 No current recommendations for a travel or remote work bag. My criteria will be that it fits a 15-inch computer snugly; has a separate compartment for documents; has a separate compartment for computer peripherals, or can hold a peripherals bag; has a separate compartment for extraneous items such as pens and keys; and folds open for TSA compliance.
-For I keyboard, I plan to use a Logitech-G [Pro X TKL Wireless Keyboard](https://www.logitechg.com/en-us/products/gaming-keyboards/pro-x-tkl-wireless-keyboard.html)
-Mouse Logitech [MX Anywhere 3 for Mac](https://www.logitech.com/en-us/products/mice/mx-anywhere-3-mac) mouse
-Accessories bag
-BenQ [Laptop Bar](https://www.benq.com/en-us/lighting/laptop-light.html)
-Identiv [SCR3310v2)(https://www.identiv.com/products/logical-access-control/smart-card-readers-writers/contact-smart-card-readers-writers/scr3310v2)
 
+For I keyboard, I plan to use a Logitech-G [Pro X TKL Wireless Keyboard](https://www.logitechg.com/en-us/products/gaming-keyboards/pro-x-tkl-wireless-keyboard.html).
 
+For a mouse, I plan to use a Logitech [MX Anywhere 3 for Mac](https://www.logitech.com/en-us/products/mice/mx-anywhere-3-mac) mouse.
 
-vivaldi
-hackertab-dev
+No current recommendations for an accessories bag
+
+For a laptop bar, I plan to use a BenQ [Laptop Bar](https://www.benq.com/en-us/lighting/laptop-light.html).
+
+A great choice for a security card reader is the Identiv [SCR3310v2)(https://www.identiv.com/products/logical-access-control/smart-card-readers-writers/contact-smart-card-readers-writers/scr3310v2).
+
+For a browser, I use [Vivaldi](https://vivaldi.com), which I install using Brew. Vivaldi is a Chromium-based browser that offers better security and lots of features. I add several extensions: Save to Pocket for reading articles; daily.dev and hackertab.dev to keep track of developer news; octotree, to see github files in a tree format; github-vscode-icons; among others. I use hackertab.dev as my homepage.
 vs code
 vs code extensions
 
