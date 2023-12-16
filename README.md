@@ -54,6 +54,8 @@ A great choice for a security card reader is the Identiv [SCR3310v2](https://www
 
 For a browser, I use [Vivaldi](https://vivaldi.com), which I install using Brew. Vivaldi is a Chromium-based browser that offers better security and lots of features. I add several extensions: Save to Pocket for reading articles; daily.dev and hackertab.dev to keep track of developer news; octotree, to see github files in a tree format; github-vscode-icons; among others. I use hackertab.dev as my homepage. Another great option is the [Brave Browser](https://brave.com), another Chromium-based browser that offers excellent security.
 
+In Vivaldi, I use the following workspaces: Personal, Work, Data Science, and Training. In the Personal workspace, I will pin tabs for [GMail](mail.google.com), [Google Calendars](calendar.google.com), my bank, etc. In Work, I pin work email, my timesheet, etc. I stack tabs for various projects or threads.
+
 For a Text Editor / IDE, I use [VS Code](https://code.visualstudio.com). It is open source (although owned by Microsoft), is customizable, and has plenty of extensions. It is also the most popular text editor and you will probably see most people using it. Another great option is JetBrains [PyCharm](https://www.jetbrains.com/pycharm/), a full-featured IDE, which I install using the [Toolbox App](https://www.jetbrains.com/toolbox-app/). If you want a one-stop shop, go with PyCharm. I've used both, and both are great. I am using VS Code due to its popularity and modularity.
 
 VS Code extensions that I use include: Python, Google Cloud Code, AWS Toolkit, Azure Repos, CodiumAI, Data Wrangler, Docker, GitHub Markdown Preview, GitHub Repositories, isort, json, Jupyter, Mojo, Open Recent via URI, Path Intellisense, PostgreSQL, R, Rainbow CSV, Remote Repositories, SQLTools, vscode-icons-mac, and YAML.
@@ -61,11 +63,33 @@ VS Code extensions that I use include: Python, Google Cloud Code, AWS Toolkit, A
 I use both Duet AI and Codium AI for code completion. I find them to be better than GitHub Copilot, and since they have different strengths, they are complementary.
 
 ### Project Folders
-Dev
+Here is how I set up my project folders.
 
-00_Project_Template
+In my home directory, I have a folder called "Dev," which contains all my projects. Within that, I have 00_Project_Template, which as the name implies, is a template that I copy to start a new project.
 
-01_Bloat_Project
+Next is 01_Bloat_Project, which contains a virtual environment with all sorts of of packages installed; I use this for quick coding and small projects, just to try stuff out.
+
+For each project, I increment the number and give it a name in capitalized snake case.
+
+Within the project directory, I use the following folder structure.
+
+02_Sample_Project
+├── 00_admin_(charter,scopingDocs)
+├── 01_documents_(reference,meetingNotes)
+├── 02_inputs # This is where raw data goes; I then copy it to 03_WIP to clean it and analyze
+├── 03_WIP # This is where I spend 95% of my time
+    ├── certifi >=2017.4.17
+    ├── chardet >=3.0.2,<3.1.0
+    ├── idna >=2.5,<2.7
+    └── urllib3 <1.23,>=1.21.1
+└── 04_outputs # Final results go here, such as final presentations or final spreadsheets
+
+    ├── certifi >=2017.4.17
+    ├── chardet >=3.0.2,<3.1.0
+    ├── idna >=2.5,<2.7
+    └── urllib3 <1.23,>=1.21.1
+
+
 
 ### Shell
 
