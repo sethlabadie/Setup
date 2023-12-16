@@ -1,11 +1,11 @@
 # How I Setup my Development Computer
 
 ### Computer Choice
-I use a Mac computer, because it is the (only) choice. Yes, Linux is an option too, but I think Apple is better because:
+I use a Mac computer, because it is the (only) choice. Yes, Linux is an option too. Microsoft is not an option. I think Apple is better because:
 
-1. Apple computers are typically more powerful, especially if you get an ARM-based system
-2. It has almost all of the Linux functions, plus more
-3. Most sample code and helps are written for either Mac or Linux (and Mac can typically run Linux commands, either directly or with tweaks to the code)
+1. Apple computers are typically more powerful than generic computers, especially if you get an ARM-based system (although Linux is lightweight and gives great performance for the given hardware)
+2. It has almost all of the Linux functions, plus more. Microsoft is clunky.
+3. Most sample code and helps are written for either Mac or Linux (and Mac can typically run Linux commands, either directly or with tweaks to the code). With Microsoft, you are left to interpret and recode.
 4. You really need to use a Unix-like file system and be able to run Unix-like shells
 
 Plus, some additional considerations:
@@ -18,9 +18,11 @@ If you are forced to use a Microsoft computer at work, then fine, but install WS
 ### Desktop
 I am using an iMac, but in the future I will be using a Mac Book Pro with a dock and widescreen monitor. I purchased a version with basic RAM, and then replaced it with aftermarket RAM, since it is so much cheaper than buying it from Apple. In future versions that have glued or soldered RAM, this won't be possible. In that case, I will buy as much RAM as I can afford, because I think it is so important.
 
-For a keyboard, I am using the [MacTigr](https://www.daskeyboard.com/mactigr/) from Das Keyboards. It is a mechanical keyboard designed with a Mac layout. Das also offers [Dvorak keycaps](https://shop.daskeyboard.com/collections/accessories/products/das-keyboard-modern-font-dvorak-rgb-keycap-set-for-gamma-zulu-switches-translucent), if that is your typing orientation. The only gripe I have is that I wish this keyboard had backlighting. Other Das keyboards do have backlighting, but not the MacTigr. Finally, I pair this with the [Palm Rest One](https://shop.daskeyboard.com/collections/accessories/products/das-keyboard-palm-rest-one), which I think is a necessity.
+I am not using a computer dock since I don't have a laptop, but I would choose one that has the power to connect to multiple monitors using Thunderbolt. Thunderbolt is better and faster than HDMI, and can send data both ways.
 
-For a computer dock, I plan to use 
+The iMac has a built-in monitor (which is of good quality), so I don't have a separate monitor. In the future I will get a widescreen monitor, with another monitor in landscape mode to display my email program, slack, or code.
+
+For a keyboard, I am using the [MacTigr](https://www.daskeyboard.com/mactigr/) from Das Keyboards. It is a mechanical keyboard designed with a Mac layout. Das also offers [Dvorak keycaps](https://shop.daskeyboard.com/collections/accessories/products/das-keyboard-modern-font-dvorak-rgb-keycap-set-for-gamma-zulu-switches-translucent), if that is your typing orientation. The only gripe I have is that I wish this keyboard had backlighting. Other Das keyboards do have backlighting, but not the MacTigr. Finally, I pair this with the [Palm Rest One](https://shop.daskeyboard.com/collections/accessories/products/das-keyboard-palm-rest-one), which I think is a necessity.
 
 For a mouse, I use the Logitech [MX Master 3 for Mac](https://www.logitech.com/en-us/products/mice/mx-master-3s-mac-bluetooth-mouse) mouse. It also needs a good mousepad. I prefer hard plastic. For this, I use the Logitech-G [G440 Gaming Mousepad](https://www.logitechg.com/en-us/products/gaming-mouse-pads/g440-hard-gaming-mouse-pad.943-000790.html). Previously, I used the SteelSeries [QCK Hard Pad](https://steelseries.com/gaming-mousepads/qck-hard), which was also really good, and I might return to again. Both are about equal in my opinion.
 
@@ -30,17 +32,21 @@ I use a generic [bookstand](https://www.amazon.com/gp/product/B00MVBDLFC) that I
 
 A light is important to illuminate your workspace. BenQ [Blue Genie LED Desk Lamp](https://www.amazon.com/BenQ-Monitors-Eye-Ergonomic-White-Perfect-Architects/dp/B06Y1WN1VJ/ref=sr_1_5?crid=1D9YHUF5NVUOX&keywords=benq%2BLED&qid=1702757296&s=office-products&sprefix=benq%2Bled%2Coffice-products%2C130&sr=1-5&th=1) is a good choice. Although it is offered still on Amazon, BenQ apparently doesn't make it anymore. BenQ also offers the [e-Reading Desk Lamp](https://www.benq.com/en-us/lighting/e-reading-desk-lamp.html) and a monitor lightbar called the [ScreenBar Halo](https://www.benq.com/en-us/lighting/monitor-light.html), either which might be a good option.
 
-For work, I need to insert a security card in order to access certain websites. For this, I use the [Cherry SmartTerminal ST-1144](https://www.cherryamericas.com/smartterminal-st-1144). It has a hefty weight and sits nicely on my desktop.
+For work, I need to insert a security card in order to access certain websites. For this, I use the [Cherry SmartTerminal ST-1144](https://www.cherryamericas.com/smartterminal-st-1144). It has a hefty weight and sits nicely on my desktop. Another option might be the HID [Omnikey 3121](https://www.hidglobal.com/products/omnikey-3121). Follow the advice [here for USB](https://militarycac.com/usbreaders.htm) and [here for USB-C](https://militarycac.com/usbcreaders.htm). Don't buy any cheap Chinese crap on Amazon, because you never know what malware [it contains](https://krebsonsecurity.com/2022/05/when-your-smart-id-card-reader-comes-with-malware/comment-page-1/).
 
-### Travel system
-My travel package will include a Mac Book Pro. 
-Bag
+### Travel / Remote Work System
+My travel package will include a Mac Book Pro. No purchase yet.
+No current recommendations for a travel or remote work bag. My criteria will be that it fits a 15-inch computer snugly; has a separate compartment for documents; has a separate compartment for computer peripherals, or can hold a peripherals bag; has a separate compartment for extraneous items such as pens and keys; and folds open for TSA compliance.
+For I keyboard, I plan to use a Logitech-G [Pro X TKL Wireless Keyboard](https://www.logitechg.com/en-us/products/gaming-keyboards/pro-x-tkl-wireless-keyboard.html)
 Mouse Logitech [MX Anywhere 3 for Mac](https://www.logitech.com/en-us/products/mice/mx-anywhere-3-mac) mouse
 Accessories bag
 BenQ [Laptop Bar](https://www.benq.com/en-us/lighting/laptop-light.html)
+Identiv [SCR3310v2)(https://www.identiv.com/products/logical-access-control/smart-card-readers-writers/contact-smart-card-readers-writers/scr3310v2)
+
 
 
 vivaldi
+hackertab-dev
 vs code
 vs code extensions
 
