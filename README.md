@@ -50,6 +50,8 @@ For a laptop bar, I plan to use a BenQ [Laptop Bar](https://www.benq.com/en-us/l
 
 A great choice for a security card reader is the Identiv [SCR3310v2)(https://www.identiv.com/products/logical-access-control/smart-card-readers-writers/contact-smart-card-readers-writers/scr3310v2).
 
+### Browser
+
 For a browser, I use [Vivaldi](https://vivaldi.com), which I install using Brew. Vivaldi is a Chromium-based browser that offers better security and lots of features. I add several extensions: Save to Pocket for reading articles; daily.dev and hackertab.dev to keep track of developer news; octotree, to see github files in a tree format; github-vscode-icons; among others. I use hackertab.dev as my homepage.
 vs code
 vs code extensions
