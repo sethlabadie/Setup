@@ -1,17 +1,35 @@
-# Installfest
+# How I Setup my Development Computer
 
-### Computer Setup (Mac, Linux, & Windows)
+### Computer Choice
+I use a Mac computer, because it is the (only) choice. Yes, Linux is an option too, but I think Apple is better because:
 
+1. Apple computers are typically more powerful, especially if you get an ARM-based system
+2. It has almost all of the Linux functions, plus more
+3. Most sample code and helps are written for either Mac or Linux (and Mac can typically run Linux commands, either directly or with tweaks to the code)
+4. You really need to use a Unix-like file system and be able to run Unix-like shells
 
-### Mac Setup
-- Make sure you have an Apple ID
-- Optional: Download XCode from the Mac App Store. This IDE is primarily for Mac development in Swift, but can be used with other languages, although not ideally.
-- Ensure that you're running the most recent operating system. You can check your version by going to "System Preferences" and clicking on "Software Update"
-- [Complete Installfest (MacOS)](./installfest_mac.md)
+Plus, some additional considerations:
 
-### Ubuntu Linux Setup
-- [Complete Installfest (Ubuntu Linux)](./installfest_linux.md)
+5. It is cooler
+6. You will look like a real programmer at the cafe or the workspace
 
-### Windows Setup
-- Ensure that you're running the most recent operating system (Windows 10 and 11 are both fine). You can update to the latest Windows version by selecting `Start > Settings > **Windows Update **> Check for updates.`
-- [Complete Installfest (Windows)](./installfest_windows.md)
+If you are forced to use a Microsoft computer at work, then fine, but install WSL (Windows Subsystem for Linux) and use that
+
+### Desktop
+
+### Project Folders
+Dev
+
+00_Project_Template
+
+01_Bloat_Project
+
+### Shell
+
+### Brew
+
+### Pyenv
+
+### Direnv
+
+### Poetry
