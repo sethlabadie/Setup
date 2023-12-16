@@ -48,14 +48,17 @@ No current recommendations for an accessories bag
 
 For a laptop bar, I plan to use a BenQ [Laptop Bar](https://www.benq.com/en-us/lighting/laptop-light.html).
 
-A great choice for a security card reader is the Identiv [SCR3310v2)(https://www.identiv.com/products/logical-access-control/smart-card-readers-writers/contact-smart-card-readers-writers/scr3310v2).
+A great choice for a security card reader is the Identiv [SCR3310v2](https://www.identiv.com/products/logical-access-control/smart-card-readers-writers/contact-smart-card-readers-writers/scr3310v2).
 
 ### Browser
 
-For a browser, I use [Vivaldi](https://vivaldi.com), which I install using Brew. Vivaldi is a Chromium-based browser that offers better security and lots of features. I add several extensions: Save to Pocket for reading articles; daily.dev and hackertab.dev to keep track of developer news; octotree, to see github files in a tree format; github-vscode-icons; among others. I use hackertab.dev as my homepage.
-vs code
-vs code extensions
+For a browser, I use [Vivaldi](https://vivaldi.com), which I install using Brew. Vivaldi is a Chromium-based browser that offers better security and lots of features. I add several extensions: Save to Pocket for reading articles; daily.dev and hackertab.dev to keep track of developer news; octotree, to see github files in a tree format; github-vscode-icons; among others. I use hackertab.dev as my homepage. Another great option is the [Brave Browser](https://brave.com), another Chromium-based browser that offers excellent security.
 
+For a Text Editor / IDE, I use [VS Code](https://code.visualstudio.com). It is open source (although owned by Microsoft), is customizable, and has plenty of extensions. It is also the most popular text editor and you will probably see most people using it. Another great option is JetBrains [PyCharm](https://www.jetbrains.com/pycharm/), a full-featured IDE, which I install using the [Toolbox App](https://www.jetbrains.com/toolbox-app/). If you want a one-stop shop, go with PyCharm. I've used both, and both are great. I am using VS Code due to its popularity and modularity.
+
+VS Code extensions that I use include: Python, Google Cloud Code, AWS Toolkit, Azure Repos, CodiumAI, Data Wrangler, Docker, GitHub Markdown Preview, GitHub Repositories, isort, json, Jupyter, Mojo, Open Recent via URI, Path Intellisense, PostgreSQL, R, Rainbow CSV, Remote Repositories, SQLTools, vscode-icons-mac, and YAML.
+
+I use both Duet AI and Codium AI for code completion. I find them to be better than GitHub Copilot, and since they have different strengths, they are complementary.
 
 ### Project Folders
 Dev
