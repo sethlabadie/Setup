@@ -28,7 +28,7 @@ I use a generic [bookstand](https://www.amazon.com/gp/product/B00MVBDLFC) that I
 
 A light is important to illuminate your workspace. BenQ [Blue Genie LED Desk Lamp](https://www.amazon.com/BenQ-Monitors-Eye-Ergonomic-White-Perfect-Architects/dp/B06Y1WN1VJ/ref=sr_1_5?crid=1D9YHUF5NVUOX&keywords=benq%2BLED&qid=1702757296&s=office-products&sprefix=benq%2Bled%2Coffice-products%2C130&sr=1-5&th=1) is a good choice. Although it is offered still on Amazon, BenQ apparently doesn't make it anymore. BenQ also offers the [e-Reading Desk Lamp](https://www.benq.com/en-us/lighting/e-reading-desk-lamp.html) and a monitor lightbar called the [ScreenBar Halo](https://www.benq.com/en-us/lighting/monitor-light.html), either which might be a good option.
 
-
+For work, I need to insert a security card in order to access certain websites. For this, I use the [Cherry SmartTerminal ST-1144](https://www.cherryamericas.com/smartterminal-st-1144). It has a hefty weight and sits nicely on my desktop.
 
 ### Travel system
 Computer
