@@ -24,8 +24,10 @@ For a mouse, I use the Logitech [MX Master 3 for Mac](https://www.logitech.com/e
 
 For headphones, I use the Bose [QuietComfort](https://www.bose.com/p/headphones/quietcomfort-acoustic-noise-cancelling-headphones/QC-HEADPHONEARN.html?dwvar_QC-HEADPHONEARN_color=WHITE%20SMOKE) headphones (formerly QuietComfort 45), although Bose recently came out with the [QuietComfort Ultra](https://www.bose.com/p/headphones/bose-quietcomfort-ultra-headphones/QCUH-HEADPHONEARN.html?dwvar_QCUH-HEADPHONEARN_color=WHITE%20SMOKE&quantity=1). I am intrigued by the Das [Holosonic T1w](https://www.daskeyboard.com/holosonic-t1w/) headphones, which are much cheaper and also connect over wifi in addition to bluetooth.
 
-paper holder
-benq
+I use a generic [bookstand](https://www.amazon.com/gp/product/B00MVBDLFC) that I bought on Amazon. There are plenty of other options.
+
+A light is important to illuminate your workspace. BenQ [Blue Genie LED Desk Lamp](https://www.amazon.com/BenQ-Monitors-Eye-Ergonomic-White-Perfect-Architects/dp/B06Y1WN1VJ/ref=sr_1_5?crid=1D9YHUF5NVUOX&keywords=benq%2BLED&qid=1702757296&s=office-products&sprefix=benq%2Bled%2Coffice-products%2C130&sr=1-5&th=1) is a good choice. Although it is offered still on Amazon, BenQ apparently doesn't make it anymore. BenQ also offers the [e-Reading Desk Lamp](https://www.benq.com/en-us/lighting/e-reading-desk-lamp.html) and a monitor lightbar called the [ScreenBar Halo](https://www.benq.com/en-us/lighting/monitor-light.html), either which might be a good option.
+
 
 
 ### Travel system
@@ -33,6 +35,8 @@ Computer
 Bag
 Mouse Logitech [MX Anywhere 3 for Mac](https://www.logitech.com/en-us/products/mice/mx-anywhere-3-mac) mouse
 Accessories bag
+BenQ [Laptop Bar](https://www.benq.com/en-us/lighting/laptop-light.html)
+
 
 vivaldi
 vs code
