@@ -58,7 +58,7 @@ In Vivaldi, I use the following workspaces: Personal, Work, Data Science, and Tr
 
 For a Text Editor / IDE, I use [VS Code](https://code.visualstudio.com). It is open source (although owned by Microsoft), is customizable, and has plenty of extensions. It is also the most popular text editor and you will probably see most people using it. Another great option is JetBrains [PyCharm](https://www.jetbrains.com/pycharm/), a full-featured IDE, which I install using the [Toolbox App](https://www.jetbrains.com/toolbox-app/). If you want a one-stop shop, go with PyCharm. I've used both, and both are great. I am using VS Code due to its popularity and modularity.
 
-VS Code extensions that I use include: Python, Google Cloud Code, AWS Toolkit, Azure Repos, CodiumAI, Data Wrangler, Docker, GitHub Markdown Preview, GitHub Repositories, isort, json, Jupyter, Mojo, Open Recent via URI, Path Intellisense, PostgreSQL, R, Rainbow CSV, Remote Repositories, SQLTools, vscode-icons-mac, and YAML.
+VS Code extensions that I use include: Python, Google Cloud Code, AWS Toolkit, Azure Repos, CodiumAI, Data Wrangler, Docker, GitHub Markdown Preview, GitHub Repositories, isort, json, Jupyter, Mojo 🔥, Open Recent via URI, Path Intellisense, PostgreSQL, R, Rainbow CSV, Remote Repositories, SQLTools, vscode-icons-mac, and YAML.
 
 I use both Duet AI and Codium AI for code completion. I find them to be better than GitHub Copilot, and since they have different strengths, they are complementary.
 
@@ -82,12 +82,11 @@ Within the project directory, I use the following folder structure.
 &nbsp;&nbsp;&nbsp;&nbsp;└── tests<br>
 └── 04_outputs # Final results go here, such as final presentations or final spreadsheets
 
-
 ### Brew
-[Brew](https://brew.sh) is a package manager for MacOS and works similar to apt or dnf. I use it to download most software, both command-line and gui apps. The benefit is that you can regularly use """brew update && brew upgrade && brew cleanup""" to update all apps you downloaded with brew.
+[Brew](https://brew.sh) is a package manager for MacOS and works similar to apt or dnf. I use it to download most software, both command-line and gui apps. The benefit is that you can regularly use ```brew update && brew upgrade && brew cleanup``` to update all apps you downloaded with brew.
 
 ### Shell
-I use [zsh](https://www.zsh.org) as my shell. Mac has zsh as its default shell, but I like to download the most up-to-date version using brew. After installing, use the command: chsh -s /usr/local/bin/zsh to activate this new shell.
+I use [zsh](https://www.zsh.org) as my shell. Mac has zsh as its default shell, but I like to download the most up-to-date version using brew. After installing, use the command ```chsh -s /usr/local/bin/zsh``` to activate this new shell.
 
 I also use [oh-my-zsh](https://github.com/clvv/oh-my-zsh) as a configuration framework for zsh. 
 
@@ -97,8 +96,20 @@ I also like [Fig.io](https://fig.io), an IDE-style autocomplete for your existin
 
 Finally, [Git](https://git-scm.com) is a must-have. Install with Brew.
 
+## Pipx
+[Pipx](https://pipx.pypa.io/stable/) is used to install Python CLI applications globally while still isolating them in virtual environments. pipx will manage upgrades and uninstalls when used to install Poetry. Install with brew.
+
 ### Pyenv
+I manage python distributions with [pyenv](https://github.com/pyenv/pyenv). Pyenv downloads python versions; lets you set the global Python version; lets you set a local (project specific) Python version; lets you easily switch between multiple versions of Python; lets you change the global Python version on a per-user basis; Provides support for per-project Python versions; and allows you to override the Python version with an environment variable. It is very useful and better than installing python with brew (even though you download pyenv with brew).
 
 ### Direnv
+I like [direnv](https://direnv.net) (or [here](https://github.com/direnv/direnv) to load and unload environment variables depending on the current directory. Before each prompt, direnv checks for the existence of a .envrc file in the current and parent directories. If the file exists, it is loaded into a sub-shell and all exported variables are then captured by direnv and then made available to the current shell. It supports hooks for all the common shells like bash, zsh, tcsh and fish. This allows for project-specific environment variables. Install with brew.
 
 ### Poetry
+Finally, I like [Poetry](https://python-poetry.org) for Python packaging and dependency management. Poetry helps you manage your project by creating a virtual environment, resolving dependencies, and then building and packaging your project when you are done. Poetry creates a pyproject.toml file to manage your project, a README.md file, a .venv virtual environment, and a poetry.lock file. Set the following environment variable in .zshrc or .zshenv: ```POETRY_VIRTUALENVS_IN_PROJECT=true``` This will tell Poetry to create the virtual environment within the project folder, rather than gathering up all the virtual environments in a centralized Poetry folder. I install Poetry with pipx.
+
+### Setting Up a Virtual Environment
+
+pyenv
+direnv
+poetry
