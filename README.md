@@ -106,10 +106,13 @@ I manage python distributions with [pyenv](https://github.com/pyenv/pyenv). Pyen
 I like [direnv](https://direnv.net) (or [here](https://github.com/direnv/direnv) to load and unload environment variables depending on the current directory. Before each prompt, direnv checks for the existence of a .envrc file in the current and parent directories. If the file exists, it is loaded into a sub-shell and all exported variables are then captured by direnv and then made available to the current shell. It supports hooks for all the common shells like bash, zsh, tcsh and fish. This allows for project-specific environment variables. Install with brew.
 
 ### Poetry
-Finally, I like [Poetry](https://python-poetry.org) for Python packaging and dependency management. Poetry helps you manage your project by creating a virtual environment, resolving dependencies, and then building and packaging your project when you are done. Poetry creates a pyproject.toml file to manage your project, a README.md file, a .venv virtual environment, and a poetry.lock file. Set the following environment variable in .zshrc or .zshenv: ```POETRY_VIRTUALENVS_IN_PROJECT=true``` This will tell Poetry to create the virtual environment within the project folder, rather than gathering up all the virtual environments in a centralized Poetry folder. I install Poetry with pipx.
+Finally, I like [Poetry](https://python-poetry.org) for Python packaging and dependency management. Poetry helps you manage your project by creating a virtual environment, resolving dependencies, and then building and packaging your project when you are done. Poetry creates a pyproject.toml file to manage your project, a README.md file, a .venv virtual environment, and a poetry.lock file. Set the following environment variable in .zshrc or .zshenv: ```POETRY_VIRTUALENVS_IN_PROJECT=true``` This will tell Poetry to create the virtual environment within the project folder, rather than gathering up all the virtual environments in a centralized Poetry folder. I install Poetry with pipx. For configuration, modify the .config.toml file as follows:
+[virtualenvs]
+in-project = true
+prefer-active-python = true
 
 ### Setting Up a Virtual Environment
 
 pyenv
 direnv
-poetry
+poetry pyenv local 3.12
