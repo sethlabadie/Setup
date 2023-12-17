@@ -56,6 +56,8 @@ For a browser, I use [Vivaldi](https://vivaldi.com), which I install using Brew.
 
 In Vivaldi, I use the following workspaces: Personal, Work, Data Science, and Training. In the Personal workspace, I will pin tabs for [GMail](mail.google.com), [Google Calendars](calendar.google.com), my bank, etc. In Work, I pin work email, my timesheet, etc. I stack tabs for various projects or threads.
 
+### IDE
+
 For a Text Editor / IDE, I use [VS Code](https://code.visualstudio.com). It is open source (although owned by Microsoft), is customizable, and has plenty of extensions. It is also the most popular text editor and you will probably see most people using it. Another great option is JetBrains [PyCharm](https://www.jetbrains.com/pycharm/), a full-featured IDE, which I install using the [Toolbox App](https://www.jetbrains.com/toolbox-app/). If you want a one-stop shop, go with PyCharm. I've used both, and both are great. I am using VS Code due to its popularity and modularity.
 
 VS Code extensions that I use include: Python, Google Cloud Code, AWS Toolkit, Azure Repos, CodiumAI, Data Wrangler, Docker, GitHub Markdown Preview, GitHub Repositories, isort, json, Jupyter, Mojo 🔥, Open Recent via URI, Path Intellisense, PostgreSQL, R, Rainbow CSV, Remote Repositories, SQLTools, vscode-icons-mac, and YAML.
@@ -107,7 +109,7 @@ I also use [oh-my-zsh](https://github.com/clvv/oh-my-zsh) as a configuration fra
 
 I like to use a theme for oh-my-zsh called [Powerlevel10k](https://github.com/romkatv/powerlevel10k), also [here](https://fig.io/plugins/other/powerlevel10k). First, you need to install the [Meslo Nerd Font patched for Powerlevel10k](https://github.com/romkatv/powerlevel10k/blob/master/font.md). Then follow the instructions for installing Powerlevel10k.
 
-I also like [Fig.io](https://fig.io), an IDE-style autocomplete for your existing terminal. It is now incorporated into [Amazon Codewhisperer for Command Line](https://aws.amazon.com/blogs/devops/introducing-amazon-codewhisperer-for-command-line/), so that is an option too.
+I also like [Fig.io](https://fig.io), an IDE-style autocomplete for your existing terminal. It is now incorporated into [Amazon Codewhisperer for Command Line](https://aws.amazon.com/blogs/devops/introducing-amazon-codewhisperer-for-command-line/).
 
 Finally, [Git](https://git-scm.com) is a must-have. Install with Brew.
 
