@@ -71,40 +71,31 @@ In my home directory, I have a folder called "Dev," which contains all my projec
 ├── 00_admin_(charter,scopingDocs)<br>
 ├── 01_documents_(reference,meetingNotes)<br>
 ├── 02_inputs # This is where raw data goes; I then copy it to 03_WIP to clean it and analyze<br>
-├── 03_WIP # This is where I spend 95% of my time. It includes a subfolder with the coding project, plus all of the other work-in-progress files, such as draft PowerPoint slides or Excel WorkBooks that I am using to help my analysis.<br>
+├── 03_WIP # This is where I spend 95% of my time. It includes a subfolder with the coding project,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;plus all of the other work-in-progress files, such as draft PowerPoint slides or Excel WorkBooks.<br>
 └── 04_outputs # Final results go here, such as final presentations or final spreadsheets
 
 Next is 01_Bloat_Project, which contains a virtual environment with all sorts of of packages installed; I use this for quick coding and small projects, just to try stuff out.
 
 For each new project, I increment the number and give it a name in capitalized snake case.
 
-Within the project directory, I use the following folder structure.
+Within the project directory, I use the following folder structure. Everything inside 03_WIP is created below in **Setting Up a Virtual Environment**.
 
 02_Sample_Project<br>
 ├── 00_admin_(charter,scopingDocs)<br>
 ├── 01_documents_(reference,meetingNotes)<br>
-├── 02_inputs # This is where raw data goes; I then copy it to 03_WIP to clean it and analyze<br>
-└── 03_WIP # This is where I spend 95% of my time<br>
-&nbsp;&nbsp;&nbsp;&nbsp;└── sample_project-py<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── .venv
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── src<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── tests<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── .envrc<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── .python-version<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── poetry.lock<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── pyproject.toml<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── README.md<br>
-└── 04_outputs # Final results go here, such as final presentations or final spreadsheets
+├── 02_inputs<br>
+└── 03_WIP<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── sample_project-py<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── .venv<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── src<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── tests<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── .envrc<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── .python-version<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── poetry.lock<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── pyproject.toml<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── README.md<br>
+└── 04_outputs
 
-02_Sample_Project<br>
-├── 00_admin_(charter,scopingDocs)<br>
-├── 01_documents_(reference,meetingNotes)<br>
-├── 02_inputs # This is where raw data goes; I then copy it to 03_WIP to clean it and analyze<br>
-├── 03_WIP # This is where I spend 95% of my time<br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── .envrc<br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── src<br>
-&nbsp;&nbsp;&nbsp;&nbsp;└── tests<br>
-└── 04_outputs # Final results go here, such as final presentations or final spreadsheets
 
 ### Brew
 [Brew](https://brew.sh) is a package manager for MacOS and works similar to apt or dnf. I use it to download most software, both command-line and gui apps. The benefit is that you can regularly use ```brew update && brew upgrade && brew cleanup``` to update all apps you downloaded with brew.
@@ -114,20 +105,20 @@ I use [zsh](https://www.zsh.org) as my shell. Mac has zsh as its default shell, 
 
 I also use [oh-my-zsh](https://github.com/clvv/oh-my-zsh) as a configuration framework for zsh. 
 
-I like to use a theme for oh-my-zsh called [Powerlevel10k](https://github.com/romkatv/powerlevel10k) also [here](https://fig.io/plugins/other/powerlevel10k). First, you need to install the [Meslo Nerd Font patched for Powerlevel10k](https://github.com/romkatv/powerlevel10k/blob/master/font.md). Then follow the instructions for installing Powerlevel10k.
+I like to use a theme for oh-my-zsh called [Powerlevel10k](https://github.com/romkatv/powerlevel10k), also [here](https://fig.io/plugins/other/powerlevel10k). First, you need to install the [Meslo Nerd Font patched for Powerlevel10k](https://github.com/romkatv/powerlevel10k/blob/master/font.md). Then follow the instructions for installing Powerlevel10k.
 
 I also like [Fig.io](https://fig.io), an IDE-style autocomplete for your existing terminal. It is now incorporated into [Amazon Codewhisperer for Command Line](https://aws.amazon.com/blogs/devops/introducing-amazon-codewhisperer-for-command-line/), so that is an option too.
 
 Finally, [Git](https://git-scm.com) is a must-have. Install with Brew.
 
-## Pipx
+### Pipx
 [Pipx](https://pipx.pypa.io/stable/) is used to install Python CLI applications globally while still isolating them in virtual environments. pipx will manage upgrades and uninstalls when used to install Poetry. Install with brew.
 
 ### Pyenv
 I manage python distributions with [pyenv](https://github.com/pyenv/pyenv). Pyenv downloads python versions; lets you set the global Python version; lets you set a local (project specific) Python version; lets you easily switch between multiple versions of Python; lets you change the global Python version on a per-user basis; Provides support for per-project Python versions; and allows you to override the Python version with an environment variable. It is very useful and better than installing python with brew (even though you download pyenv with brew).
 
 ### Direnv
-I like [direnv](https://direnv.net) (or [here](https://github.com/direnv/direnv) to load and unload environment variables depending on the current directory. Before each prompt, direnv checks for the existence of a .envrc file in the current and parent directories. If the file exists, it is loaded into a sub-shell and all exported variables are then captured by direnv and then made available to the current shell. It supports hooks for all the common shells like bash, zsh, tcsh and fish. This allows for project-specific environment variables. Install with brew.
+I like [direnv](https://direnv.net), also [here](https://github.com/direnv/direnv), to load and unload environment variables depending on the current directory. Before each prompt, direnv checks for the existence of a .envrc file in the current and parent directories. If the file exists, it is loaded into a sub-shell and all exported variables are then captured by direnv and then made available to the current shell. It supports hooks for all the common shells like bash, zsh, tcsh and fish. This allows for project-specific environment variables. Install with brew.
 
 ### Poetry
 I like [Poetry](https://python-poetry.org) for Python packaging and dependency management. Poetry helps you manage your project by creating a virtual environment, resolving dependencies, and then building and packaging your project to a repository when you are done. Poetry creates a pyproject.toml file to manage your project, a README.md file, a .venv virtual environment, and a poetry.lock file. Set the following environment variable in .zshrc or .zshenv: ```POETRY_VIRTUALENVS_IN_PROJECT=true``` This will tell Poetry to create the virtual environment within the project folder, rather than gathering up all the virtual environments in a centralized Poetry folder. I install Poetry with pipx. For configuration, modify the .config.toml file as follows:
@@ -141,8 +132,9 @@ prefer-active-python = true # Use currently activated Python version to create a
 
 ### Setting Up a Virtual Environment
 Copy the 00_Project_Template directory structure and rename it to your project name. Navigate to the 03_WIP folder.<br>
-Create your Python project by issuing the ```poetry new test-py``` command (rename test-py to whatever your project name is). This creates a project directory with the following contents: test-py directory; tests directory; pyproject.toml; and README.md. ```cd``` into the project folder and rename the second (nested) project folder to ```src```. Then open the pyproject.toml file and make any modifications you need, such as to the description field.
-Add some modules that you know you will need by issuing the ```poetry add numpy pandas requests``` command (edit for your needs). This will write these modules to the pyproject.toml file, create a poetry.lock file, create a virtual environment (.venv) directory, and install the modules.
+Create your Python project by issuing the ```poetry new test-py``` command (rename test-py to whatever your project name is). This creates a project directory with the following contents: test-py directory; tests directory; pyproject.toml; and README.md.<br>
+```cd``` into the project folder and rename the second (nested) project folder to ```src```. Then open the pyproject.toml file and make any modifications you need, such as to the description field.<br>
+Add some modules that you know you will need by issuing the ```poetry add numpy pandas requests``` command (edit for your needs). This will write these modules to the pyproject.toml file, create a poetry.lock file, create a virtual environment (.venv) directory, and install the modules.<br>
 Issue the ```pyenv local 3.12``` command (substitute the version number for any other version of Python you might want). This creates a ```.python-version``` file.<br>
-If you want to create a per-project isolated development environment, create a blank ```.envrc``` file. When you navigate to this directory, **direnv** will recognize it and load the environment variables for that project.
+If you want to create a per-project isolated development environment, create a blank ```.envrc``` file. When you navigate to this directory, **direnv** will recognize it and load the environment variables for that project.<br>
 Your project is setup. If you navigate into the project directory, pyautoenv will automatically activate the virtual environment, and direnv will load the ```.envrc``` file. If you navigate away from the project folder, they will exit and unload.
