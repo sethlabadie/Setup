@@ -78,22 +78,24 @@ Within the project directory, I use the following folder structure.
 ├── 01_documents_(reference,meetingNotes)
 ├── 02_inputs # This is where raw data goes; I then copy it to 03_WIP to clean it and analyze
 ├── 03_WIP # This is where I spend 95% of my time
-    ├── certifi >=2017.4.17
-    ├── chardet >=3.0.2,<3.1.0
-    ├── idna >=2.5,<2.7
-    └── urllib3 <1.23,>=1.21.1
+    ├── src
+    └── tests
 └── 04_outputs # Final results go here, such as final presentations or final spreadsheets
 
-    ├── certifi >=2017.4.17
-    ├── chardet >=3.0.2,<3.1.0
-    ├── idna >=2.5,<2.7
-    └── urllib3 <1.23,>=1.21.1
-
-
-
-### Shell
 
 ### Brew
+[Brew](https://brew.sh) is a package manager for MacOS and works similar to apt or dnf. I use it to download most software, both command-line and gui apps. The benefit is that you can regularly use brew update && brew upgrade && brew cleanup to update all apps you downloaded with brew.
+
+### Shell
+I use [zsh](https://www.zsh.org) as my shell. Mac has zsh as its default shell, but I like to download the most up-to-date version using brew. After installing, use the command: chsh -s /usr/local/bin/zsh to activate this new shell.
+
+I also use [oh-my-zsh](https://github.com/clvv/oh-my-zsh) as a configuration framework for zsh. 
+
+I like to use a theme for oh-my-zsh called [Powerlevel10k](https://github.com/romkatv/powerlevel10k) also [here](https://fig.io/plugins/other/powerlevel10k). First, you need to install the [Meslo Nerd Font patched for Powerlevel10k](https://github.com/romkatv/powerlevel10k/blob/master/font.md). Then follow the instructions for installing Powerlevel10k.
+
+I also like [Fig.io](https://fig.io), an IDE-style autocomplete for your existing terminal. It is now incorporated into [Amazon Codewhisperer for Command Line](https://aws.amazon.com/blogs/devops/introducing-amazon-codewhisperer-for-command-line/), so that is an option too.
+
+Finally, [Git](https://git-scm.com) is a must-have. Install with Brew.
 
 ### Pyenv
 
