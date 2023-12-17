@@ -32,7 +32,7 @@ I use a generic [bookstand](https://www.amazon.com/gp/product/B00MVBDLFC) that I
 
 A light is important to illuminate your workspace. BenQ [Blue Genie LED Desk Lamp](https://www.amazon.com/BenQ-Monitors-Eye-Ergonomic-White-Perfect-Architects/dp/B06Y1WN1VJ/ref=sr_1_5?crid=1D9YHUF5NVUOX&keywords=benq%2BLED&qid=1702757296&s=office-products&sprefix=benq%2Bled%2Coffice-products%2C130&sr=1-5&th=1) is a good choice. Although it is offered still on Amazon, BenQ apparently doesn't make it anymore. BenQ also offers the [e-Reading Desk Lamp](https://www.benq.com/en-us/lighting/e-reading-desk-lamp.html) and a monitor lightbar called the [ScreenBar Halo](https://www.benq.com/en-us/lighting/monitor-light.html), either which might be a good option.
 
-For work, I need to insert a security card in order to access certain websites. For this, I use the [Cherry SmartTerminal ST-1144](https://www.cherryamericas.com/smartterminal-st-1144). It has a hefty weight and sits nicely on my desktop. Another option might be the HID [Omnikey 3121](https://www.hidglobal.com/products/omnikey-3121). Follow the advice [here for USB](https://militarycac.com/usbreaders.htm) and [here for USB-C](https://militarycac.com/usbcreaders.htm). Don't buy any cheap Chinese crap on Amazon, because you never know what malware [it contains](https://krebsonsecurity.com/2022/05/when-your-smart-id-card-reader-comes-with-malware/comment-page-1/).
+For work, I need to insert a security card in order to access certain websites. For this, I use the [Cherry SmartTerminal ST-1144](https://www.cherryamericas.com/smartterminal-st-1144). It has a hefty weight and sits nicely on my desktop. Another option might be the HID [Omnikey 3121](https://www.hidglobal.com/products/omnikey-3121). Follow the advice [here for USB](https://militarycac.com/usbreaders.htm) and [here for USB-C](https://militarycac.com/usbcreaders.htm). Don't buy any cheap Chinese crap on Amazon, because you never know what [malware](https://krebsonsecurity.com/2022/05/when-your-smart-id-card-reader-comes-with-malware/comment-page-1/) it contains.
 
 ### Travel / Remote Work System
 
@@ -73,18 +73,18 @@ For each project, I increment the number and give it a name in capitalized snake
 
 Within the project directory, I use the following folder structure.
 
-02_Sample_Project
-├── 00_admin_(charter,scopingDocs)
-├── 01_documents_(reference,meetingNotes)
-├── 02_inputs # This is where raw data goes; I then copy it to 03_WIP to clean it and analyze
-├── 03_WIP # This is where I spend 95% of my time
-    ├── src
-    └── tests
+02_Sample_Project<br>
+├── 00_admin_(charter,scopingDocs)<br>
+├── 01_documents_(reference,meetingNotes)<br>
+├── 02_inputs # This is where raw data goes; I then copy it to 03_WIP to clean it and analyze<br>
+├── 03_WIP # This is where I spend 95% of my time<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── src<br>
+&nbsp;&nbsp;&nbsp;&nbsp;└── tests<br>
 └── 04_outputs # Final results go here, such as final presentations or final spreadsheets
 
 
 ### Brew
-[Brew](https://brew.sh) is a package manager for MacOS and works similar to apt or dnf. I use it to download most software, both command-line and gui apps. The benefit is that you can regularly use brew update && brew upgrade && brew cleanup to update all apps you downloaded with brew.
+[Brew](https://brew.sh) is a package manager for MacOS and works similar to apt or dnf. I use it to download most software, both command-line and gui apps. The benefit is that you can regularly use """brew update && brew upgrade && brew cleanup""" to update all apps you downloaded with brew.
 
 ### Shell
 I use [zsh](https://www.zsh.org) as my shell. Mac has zsh as its default shell, but I like to download the most up-to-date version using brew. After installing, use the command: chsh -s /usr/local/bin/zsh to activate this new shell.
