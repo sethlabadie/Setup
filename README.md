@@ -60,7 +60,7 @@ For a Text Editor / IDE, I use [VS Code](https://code.visualstudio.com). It is o
 
 VS Code extensions that I use include: Python, Google Cloud Code, AWS Toolkit, Azure Repos, CodiumAI, Data Wrangler, Docker, GitHub Markdown Preview, GitHub Repositories, isort, json, Jupyter, Mojo 🔥, Open Recent via URI, Path Intellisense, PostgreSQL, R, Rainbow CSV, Remote Repositories, SQLTools, vscode-icons-mac, and YAML.
 
-I use both Duet AI and Codium AI for code completion. I find them to be better than GitHub Copilot, and since they have different strengths, they are complementary.
+I use both Duet AI and Codium AI for code completion. I find them to be better than GitHub Copilot, and since they have different strengths, they are complementary. Duet AI is tricky to set up, as you need to activate some settings in Google Cloud Platform. Follow the instructions in the Chrome Store.
 
 ### Project Folders
 Here is how I set up my project folders.
