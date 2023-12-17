@@ -84,14 +84,16 @@ Within the project directory, I use the following folder structure.
 ├── 00_admin_(charter,scopingDocs)<br>
 ├── 01_documents_(reference,meetingNotes)<br>
 ├── 02_inputs # This is where raw data goes; I then copy it to 03_WIP to clean it and analyze<br>
-├── 03_WIP # This is where I spend 95% of my time<br>
-&nbsp;&nbsp;&nbsp;&nbsp;├── sample_project-py<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├──
+└── 03_WIP # This is where I spend 95% of my time<br>
+&nbsp;&nbsp;&nbsp;&nbsp;└── sample_project-py<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── .venv
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── src<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── tests<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── tests<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── .envrc<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── src<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── src<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── .python-version<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── poetry.lock<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── pyproject.toml<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── README.md<br>
 └── 04_outputs # Final results go here, such as final presentations or final spreadsheets
 
 02_Sample_Project<br>
