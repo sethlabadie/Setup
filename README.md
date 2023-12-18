@@ -136,9 +136,15 @@ prefer-active-python = true # Use currently activated Python version to create a
 
 ### Setting Up a Virtual Environment
 Copy the 00_Project_Template directory structure and rename it to your project name. Navigate to the 03_WIP folder.<br>
+
 Create your Python project by issuing the ```poetry new test-py``` command (rename test-py to whatever your project name is). This creates a project directory with the following contents: test-py directory; tests directory; pyproject.toml; and README.md.<br>
+
 ```cd``` into the project folder and rename the second (nested) project folder to ```src```. Then open the pyproject.toml file and make any modifications you need, such as to the description field.<br>
+
 Add some modules that you know you will need by issuing the ```poetry add numpy pandas requests``` command (edit for your needs). This will write these modules to the pyproject.toml file, create a poetry.lock file, create a virtual environment (.venv) directory, and install the modules.<br>
+
 Issue the ```pyenv local 3.12``` command (substitute the version number for any other version of Python you might want). This creates a ```.python-version``` file.<br>
+
 If you want to create a per-project isolated development environment, create a blank ```.envrc``` file. When you navigate to this directory, **direnv** will recognize it and load the environment variables for that project.<br>
+
 Your project is setup. If you navigate into the project directory, pyautoenv will automatically activate the virtual environment, and direnv will load the ```.envrc``` file. If you navigate away from the project folder, they will exit and unload.
