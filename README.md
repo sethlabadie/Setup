@@ -60,7 +60,7 @@ In Vivaldi, I use the following workspaces: Personal, Work, Data Science, and Tr
 
 For a Text Editor / IDE, I use [VS Code](https://code.visualstudio.com). It is open source (although owned by Microsoft), is customizable, and has plenty of extensions. It is also the most popular text editor and you will probably see most people using it. Another great option is JetBrains [PyCharm](https://www.jetbrains.com/pycharm/), a full-featured IDE, which I install using the [Toolbox App](https://www.jetbrains.com/toolbox-app/). If you want a one-stop shop, go with PyCharm. I've used both, and both are great. I am using VS Code due to its popularity and modularity.
 
-VS Code extensions that I use include: Python, Google Cloud Code, AWS Toolkit, Azure Repos, CodiumAI, Data Wrangler, Docker, GitHub Markdown Preview, GitHub Repositories, isort, json, Jupyter, Mojo 🔥, Open Recent via URI, Path Intellisense, PostgreSQL, R, Rainbow CSV, Remote Repositories, SQLTools, vscode-icons-mac, and YAML.
+VS Code extensions that I use include: Python, Google Cloud Code, AWS Toolkit, Azure Repos, CodiumAI, Dev Containers, Data Wrangler, Docker, GitHub Markdown Preview, GitHub Repositories, isort, json, Jupyter, Mojo 🔥, Open Recent via URI, Path Intellisense, PostgreSQL, R, Rainbow CSV, Remote Repositories, SQLTools, vscode-icons-mac, and YAML.
 
 I use both Duet AI and Codium AI for code completion. I find them to be better than GitHub Copilot, and since they have different strengths, they are complementary. Duet AI is tricky to set up, as you need to activate some settings in Google Cloud Platform. Follow the instructions in the Chrome Store.
 
