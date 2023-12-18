@@ -105,11 +105,13 @@ Within the project directory, I use the following folder structure. Everything i
 ### Shell
 I use [zsh](https://www.zsh.org) as my shell. Mac has zsh as its default shell, but I like to download the most up-to-date version using brew. After installing, use the command ```chsh -s /usr/local/bin/zsh``` to activate this new shell.
 
+For a terminal emulator, I use [Warp](https://www.warp.dev), which is very fast (written in Rust) and has plenty of features. I've tried iTerm2 and Alacritty, and Warp is my favorite. Install with brew.
+
 I also use [oh-my-zsh](https://github.com/clvv/oh-my-zsh) as a configuration framework for zsh. 
 
 I like to use a theme for oh-my-zsh called [Powerlevel10k](https://github.com/romkatv/powerlevel10k), also [here](https://fig.io/plugins/other/powerlevel10k). First, you need to install the [Meslo Nerd Font patched for Powerlevel10k](https://github.com/romkatv/powerlevel10k/blob/master/font.md). Then follow the instructions for installing Powerlevel10k.
 
-I also like [Fig.io](https://fig.io), an IDE-style autocomplete for your existing terminal. It is now incorporated into [Amazon Codewhisperer for Command Line](https://aws.amazon.com/blogs/devops/introducing-amazon-codewhisperer-for-command-line/).
+I also like [Fig.io](https://fig.io), an IDE-style autocomplete for your existing terminal. It is now incorporated into [Amazon CodeWisperer for Command Line](https://aws.amazon.com/blogs/devops/introducing-amazon-codewhisperer-for-command-line/). It works with only some terminal emulators, to include VS Code, iTerm2, and Alacritty. Doesn't work with Warp. It may have conflicts with other autocompletion script. So, I'm not currently using it, but could in the future. Install CodeWhisperer with brew.
 
 Finally, [Git](https://git-scm.com) is a must-have. Install with Brew.
 
