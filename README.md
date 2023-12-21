@@ -149,4 +149,6 @@ Issue the ```pyenv local 3.12``` command (substitute the version number for any 
 
 If you want to create a per-project isolated development environment, create a blank ```.envrc``` file. When you navigate to this directory, **direnv** will recognize it and load the environment variables for that project.<br>
 
+Issue the ```git init``` command to start a git repository.
+
 Your project is setup. If you navigate into the project directory, pyautoenv will automatically activate the virtual environment, and direnv will load the ```.envrc``` file. If you navigate away from the project folder, they will exit and unload.
