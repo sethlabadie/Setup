@@ -115,11 +115,13 @@ I also like [Fig.io](https://fig.io), an IDE-style autocomplete for your existin
 
 Finally, [Git](https://git-scm.com) is a must-have. Install with Brew.
 
+### Pyenv
+I manage python distributions with [pyenv](https://github.com/pyenv/pyenv). Pyenv downloads python versions; lets you set the global Python version; lets you set a local (project specific) Python version; lets you easily switch between multiple versions of Python; lets you change the global Python version on a per-user basis; Provides support for per-project Python versions; and allows you to override the Python version with an environment variable. It is very useful and better than installing python with brew. Install pyenv with brew.
+
 ### Pipx
 [Pipx](https://pipx.pypa.io/stable/) is used to install Python CLI applications globally while still isolating them in virtual environments. pipx will manage upgrades and uninstalls when used to install Poetry. Install with brew.
 
-### Pyenv
-I manage python distributions with [pyenv](https://github.com/pyenv/pyenv). Pyenv downloads python versions; lets you set the global Python version; lets you set a local (project specific) Python version; lets you easily switch between multiple versions of Python; lets you change the global Python version on a per-user basis; Provides support for per-project Python versions; and allows you to override the Python version with an environment variable. It is very useful and better than installing python with brew (even though you download pyenv with brew).
+I use pipx to install black, cookiecutter, flake8, glances, and poetry
 
 ### Direnv
 I like [direnv](https://direnv.net), also [here](https://github.com/direnv/direnv), to load and unload environment variables depending on the current directory. Before each prompt, direnv checks for the existence of a .envrc file in the current and parent directories. If the file exists, it is loaded into a sub-shell and all exported variables are then captured by direnv and then made available to the current shell. It supports hooks for all the common shells like bash, zsh, tcsh and fish. This allows for project-specific environment variables. Install with brew.
