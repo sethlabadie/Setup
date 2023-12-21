@@ -111,7 +111,7 @@ I also use [oh-my-zsh](https://github.com/clvv/oh-my-zsh) as a configuration fra
 
 I like to use a theme for oh-my-zsh called [Powerlevel10k](https://github.com/romkatv/powerlevel10k), also [here](https://fig.io/plugins/other/powerlevel10k). First, you need to install the [Meslo Nerd Font patched for Powerlevel10k](https://github.com/romkatv/powerlevel10k/blob/master/font.md). Then follow the instructions for installing Powerlevel10k.
 
-I also like [Fig.io](https://fig.io), an IDE-style autocomplete for your existing terminal. It is now incorporated into [Amazon CodeWisperer for Command Line](https://aws.amazon.com/blogs/devops/introducing-amazon-codewhisperer-for-command-line/). It works with only some terminal emulators, to include VS Code, iTerm2, and Alacritty. Doesn't work with Warp. It may have conflicts with other autocompletion script. So, I'm not currently using it, but could in the future. Install CodeWhisperer with brew.
+I also would like to try [Fig.io](https://fig.io), an IDE-style autocomplete for your existing terminal. It is now incorporated into [Amazon CodeWisperer for Command Line](https://aws.amazon.com/blogs/devops/introducing-amazon-codewhisperer-for-command-line/). It works with only some terminal emulators, to include VS Code, iTerm2, and Alacritty. Doesn't work with Warp. It may have conflicts with other autocompletion script. So, I'm not currently using it, but could in the future. Install CodeWhisperer with brew.
 
 Finally, [Git](https://git-scm.com) is a must-have. Install with Brew.
 
@@ -134,7 +134,7 @@ in-project = true # This is actually redundant with the environment variable set
 prefer-active-python = true # Use currently activated Python version to create a new virtual environment. If set to false, Python version used during Poetry installation is used.
 
 ### pyautoenv
-[Pyautoenv](https://github.com/hsaunders1904/pyautoenv) is great because it automatically activates and deactivates Python environments as you move around the file system. If you enter a directory with a .venv virtual environment, it will automatically activate. When you leave it the directory, the virtual environment will deactivate. I install pyautoenv as an oh-my-zsh plugin.
+[Pyautoenv](https://github.com/hsaunders1904/pyautoenv) is great because it automatically activates and deactivates Python environments as you move around the file system. If you enter a directory with a .venv virtual environment, it will automatically activate. When you leave the directory, the virtual environment will deactivate. I install pyautoenv as an oh-my-zsh plugin.
 
 ### Setting Up a Virtual Environment
 Copy the 00_Project_Template directory structure and rename it to your project name. Navigate to the 03_WIP folder.<br>
