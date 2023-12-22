@@ -118,6 +118,8 @@ Finally, [Git](https://git-scm.com) is a must-have. Install with Brew.
 ### Pyenv
 I manage python distributions with [pyenv](https://github.com/pyenv/pyenv). Pyenv downloads python versions; lets you set the global Python version; lets you set a local (project specific) Python version; lets you easily switch between multiple versions of Python; lets you change the global Python version on a per-user basis; Provides support for per-project Python versions; and allows you to override the Python version with an environment variable. It is very useful and better than installing python with brew. Install pyenv with brew.
 
+I add the following plugins for pyenv: pyenv-default-packages, pyenv-doctor, and pyenv-update
+
 ### Pipx
 [Pipx](https://pipx.pypa.io/stable/) is used to install Python CLI applications globally while still isolating them in virtual environments. pipx will manage upgrades and uninstalls when used to install Poetry. Install with brew.
 
