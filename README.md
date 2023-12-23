@@ -135,8 +135,10 @@ I like [Poetry](https://python-poetry.org) for Python packaging and dependency m
 in-project = true # This is actually redundant with the environment variable set above<br>
 prefer-active-python = true # Use currently activated Python version to create a new virtual environment. If set to false, Python version used during Poetry installation is used.
 
-### pyautoenv
-[Pyautoenv](https://github.com/hsaunders1904/pyautoenv) is great because it automatically activates and deactivates Python environments as you move around the file system. If you enter a directory with a .venv virtual environment, it will automatically activate. When you leave the directory, the virtual environment will deactivate. I install pyautoenv as an oh-my-zsh plugin.
+### Enable Poetry shell activation and deactivation if you move into a project directory
+I couldn't find a pre-packaged solution, but did find [instructions](https://github.com/direnv/direnv/wiki/Python) to integrate Poetry into Direnv to accomplish this task. If you enter a directory with a pyproject.toml file, it will automatically activate the virtual environment. If one doesn't exist, it will automatically guide you through the process to create one, and then will create the virtual environment.
+
+Follow the instructions to modify your .direnvrc file, and then also create a .envrc file in the project folder with the following command: '''layout poetry'''.
 
 ### Setting Up a Virtual Environment
 Copy the 00_Project_Template directory structure and rename it to your project name. Navigate to the 03_WIP folder.<br>
