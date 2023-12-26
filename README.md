@@ -5,8 +5,9 @@ I use a Mac computer, because it is the (only) choice. Yes, Linux is an option t
 
 1. Apple computers are typically more powerful than generic computers, especially if you get an ARM-based system (although Linux is lightweight and gives great performance for the given hardware)
 2. It has almost all of the Linux functions, plus more. Microsoft is clunky.
-3. Most sample code and helps are written for either Mac or Linux (and Mac can typically run Linux commands, either directly or with tweaks to the code). With Microsoft, you are left to interpret and recode.
-4. You really need to use a Unix-like file system and be able to run Unix-like shells
+3. There is a lot--A LOT--of sofware that is written only for POSIX systems, and with Windows you are either SOL or you have to do a workaround.
+4. Most sample code and helps are written for either Mac or Linux (and Mac can typically run Linux commands, either directly or with tweaks to the code). With Microsoft, you are left to interpret and recode.
+5. You really need to use a Unix-like file system and be able to run Unix-like shells
 
 Plus, some additional considerations:
 
@@ -14,6 +15,7 @@ Plus, some additional considerations:
 6. You will look like a real programmer at the cafe or the workspace
 
 If you are forced to use a Microsoft computer at work, then fine, but install WSL (Windows Subsystem for Linux) and use that.
+Props to Linux users. A great option too. But I like Mac. To each his own. We can jointly hate on Microsoft.
 
 ### Desktop
 I am using an iMac, but in the future I will be using a Mac Book Pro with a dock and widescreen monitor. I purchased a version with basic RAM, and then replaced it with aftermarket RAM, since it is so much cheaper than buying it from Apple. In future versions that have glued or soldered RAM, this won't be possible. In that case, I will buy as much RAM as I can afford, because I think it is so important.
@@ -123,7 +125,14 @@ I add the following plugins for pyenv: pyenv-default-packages, pyenv-doctor, and
 ### Pipx
 [Pipx](https://pipx.pypa.io/stable/) is used to install Python CLI applications globally while still isolating them in virtual environments. pipx will manage upgrades and uninstalls when used to install Poetry. Install with brew.
 
-I use pipx to install black, cookiecutter, flake8, glances, and poetry
+I use pipx to install:
+black # uncompromising Python code formatter
+cookiecutter # creates projects from project templates
+flake8 # tool for style guide enforcement
+glances # 
+jupyter # web-based notebook environment for interactive computing
+poetry # python dependency/environment/packaging management
+sphinx # 
 
 ### Direnv
 I like [direnv](https://direnv.net), also [here](https://github.com/direnv/direnv), to load and unload environment variables depending on the current directory. Before each prompt, direnv checks for the existence of a .envrc file in the current and parent directories. If the file exists, it is loaded into a sub-shell and all exported variables are then captured by direnv and then made available to the current shell. It supports hooks for all the common shells like bash, zsh, tcsh and fish. This allows for project-specific environment variables. Install with brew.
