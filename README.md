@@ -8,6 +8,7 @@ I use a Mac computer, because it is the (only) choice. Yes, Linux is an option t
 3. There is a lot--A LOT--of sofware that is written only for POSIX systems, and with Windows you are either SOL or you have to do a workaround.
 4. Most sample code and helps are written for either Mac or Linux (and Mac can typically run Linux commands, either directly or with tweaks to the code). With Microsoft, you are left to interpret and recode.
 5. You really need to use a Unix-like file system and be able to run Unix-like shells
+6. The Mac ecosystem. Outside of coding, your mac integrates with your iPhone, Apple Watch, iPad, Apple TV, HomeKit, etc., and you can share your purchased apps and Apple+ with your family, and you can track your kids etc etc.
 
 Plus, some additional considerations:
 
