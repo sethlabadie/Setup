@@ -12,8 +12,8 @@ I use a Mac computer, because it is the (only) choice. Yes, Linux is an option t
 
 Plus, some additional considerations:
 
-5. It is cooler
-6. You will look like a real programmer at the cafe or the workspace
+7. It is cooler
+8. You will look like a real programmer at the cafe or the workspace
 
 If you are forced to use a Microsoft computer at work, then fine, but install WSL (Windows Subsystem for Linux) and use that.
 Props to Linux users. A great option too. But I like Mac. To each his own. We can jointly hate on Microsoft.
