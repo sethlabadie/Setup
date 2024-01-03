@@ -67,40 +67,6 @@ VS Code extensions that I use include: Python, Google Cloud Code, AWS Toolkit, A
 
 I also install [JupyterLab](https://jupyter.org) independently.
 
-### Project Folders
-Here is how I set up my project folders.
-
-In my home directory, I have a folder called "Dev," which contains all my projects. Within that, I have 00_Project_Template, which as the name implies, is a template that I copy to start a new project. 00_Project_Template has the following folder structure:
-
-02_Sample_Project<br>
-├── 00_admin_(charter,scopingDocs)<br>
-├── 01_documents_(reference,meetingNotes)<br>
-├── 02_inputs # This is where raw data goes; I then copy it to 03_WIP to clean it and analyze<br>
-├── 03_WIP # This is where I spend 95% of my time. It includes a subfolder with the coding project,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;plus all of the other work-in-progress files, such as draft PowerPoint slides or Excel WorkBooks.<br>
-└── 04_outputs # Final results go here, such as final presentations or final spreadsheets
-
-Next is 01_Bloat_Project, which contains a virtual environment with all sorts of of packages installed; I use this for quick coding and small projects, just to try stuff out.
-
-For each new project, I increment the number and give it a name in capitalized snake case.
-
-Within the project directory, I use the following folder structure. Everything inside 03_WIP is created below in **Setting Up a Virtual Environment**.
-
-02_Sample_Project<br>
-├── 00_admin_(charter,scopingDocs)<br>
-├── 01_documents_(reference,meetingNotes)<br>
-├── 02_inputs<br>
-└── 03_WIP<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── sample_project-py<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── .venv<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── src<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── tests<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── .envrc<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── .python-version<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── poetry.lock<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── pyproject.toml<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── README.md<br>
-└── 04_outputs
-
 
 ### Brew
 [Brew](https://brew.sh) is a package manager for MacOS and works similar to apt or dnf. I use it to download most software, both command-line and gui apps. The benefit is that you can regularly use ```brew update && brew upgrade && brew cleanup``` to update all apps you downloaded with brew.
@@ -112,7 +78,13 @@ For a terminal emulator, I use [iTerm2](https://iterm2.com).. It is a very custo
 
 I also use [oh-my-zsh](https://github.com/clvv/oh-my-zsh) as a configuration framework for zsh. 
 
-I like to use a theme for oh-my-zsh called [Powerlevel10k](https://github.com/romkatv/powerlevel10k), also [here](https://fig.io/plugins/other/powerlevel10k). First, you need to install the [Meslo Nerd Font patched for Powerlevel10k](https://github.com/romkatv/powerlevel10k/blob/master/font.md). Then follow the instructions for installing Powerlevel10k.
+I like to use a theme for oh-my-zsh called [Powerlevel10k](https://github.com/romkatv/powerlevel10k), also [here](https://fig.io/plugins/other/powerlevel10k). First, you need to install the [Meslo Nerd Font patched for Powerlevel10k](https://github.com/romkatv/powerlevel10k/blob/master/font.md) (or [here](https://www.nerdfonts.com/font-downloads)). Then follow the instructions for installing Powerlevel10k.
+
+For fonts, I like Meslo Nerd Font (patched for Powerlevel10k with the Nerd Fonts). I hear another good one, for ligatures, is [Fira]().
+
+To install Nerd Fonts with any preferred font, follow [these instructions](https://github.com/ryanoasis/nerd-fonts#font-patcher). You need to download the font you want, then run the [font-patcher script](https://github.com/ryanoasis/nerd-fonts#font-patcher). I like to use the following options: ```./font-patcher -w -c -out ~/Library/Fonts ~/Downloads/MesloLGS\ NF\ Regular.ttf```. This will create a new font file in your ~/Library/Fonts folder. Then you can select it in your terminal emulator.
+
+
 
 I use both [AWS CodeWhisperer](https://aws.amazon.com/codewhisperer/resources/#Getting_started/), [here](https://docs.aws.amazon.com/codewhisperer/latest/userguide/whisper-setup-ide-devs.html), [here](https://docs.aws.amazon.com/codewhisperer/latest/userguide/whisper-setup-ide-devs.html), or [here](https://docs.aws.amazon.com/codewhisperer/latest/userguide/what-is-cwspr.html), Duet AI (Google) and Codium AI for code completions and artificial intelligence within VS Code. I also install GitHub Copilot, but do not use it as much except as an additional option. Codium is focused more on testing and documentation, so it is complementary to the others Only activate one autocompletion tool at a time. AWS CodeWhisperer is tricky to set up, as you need to activate some settings in AWS Toolkit and create a AWS Builder ID (Developer account, different from an AWS account). Duet AI is also tricky to set up, as you need to activate some settings in Google Cloud Platform. Follow the instructions in the Chrome Store. CodeWhisperer is currently free (tbd).
 For CodeWhisperer for terminals such as [iTerm2]().
@@ -155,7 +127,45 @@ I couldn't find a pre-packaged solution, but did find [instructions](https://git
 
 Follow the instructions to modify your .direnvrc file, and then also create a .envrc file in the project folder with the following command: '''layout poetry'''.
 
+
+### Project Folders
+
+Here is how I set up my project folders.
+
+In my home directory, I have a folder called "Dev," which contains all my projects. Within that, I have 00_Project_Template, which as the name implies, is a template that I copy to start a new project. 00_Project_Template has the following folder structure:
+
+02_Sample_Project<br>
+├── 00_admin_(charter,scopingDocs)<br>
+├── 01_documents_(reference,meetingNotes)<br>
+├── 02_inputs # This is where raw data goes; I then copy it to 03_WIP to clean it and analyze<br>
+├── 03_WIP # This is where I spend 95% of my time. It includes a subfolder with the coding project,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;plus all of the other work-in-progress files, such as draft PowerPoint slides or Excel WorkBooks.<br>
+└── 04_outputs # Final results go here, such as final presentations or final spreadsheets
+
+Next is 01_Bloat_Project, which contains a virtual environment with all sorts of of packages installed; I use this for quick coding and small projects, just to try stuff out.
+
+For each new project, I increment the number and give it a name in capitalized snake case.
+
+Within the project directory, I use the following folder structure. Everything inside 03_WIP is created below in **Setting Up a Virtual Environment**.
+
+02_Sample_Project<br>
+├── 00_admin_(charter,scopingDocs)<br>
+├── 01_documents_(reference,meetingNotes)<br>
+├── 02_inputs<br>
+└── 03_WIP<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── sample_project-py<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── .venv<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── src<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── tests<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── .envrc<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── .python-version<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── poetry.lock<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── pyproject.toml<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── README.md<br>
+└── 04_outputs
+
+
 ### Setting Up a Virtual Environment
+
 Copy the 00_Project_Template directory structure and rename it to your project name. Navigate to the 03_WIP folder.<br>
 
 Create your Python project by issuing the ```poetry new test-py``` command (rename test-py to whatever your project name is). This creates a project directory with the following contents: test-py directory; tests directory; pyproject.toml; and README.md.<br>
