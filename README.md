@@ -107,6 +107,22 @@ I also install [JupyterLab](https://jupyter.org) independently.
 ### Terminal Emulator & Shell
 For a terminal emulator, I use [iTerm2](https://iterm2.com).. It is a very customizable and fast terminal (Mac only). install with Brew. Install new color themes [here](https://iterm2colorschemes.com) (try Gruvbox Dark). I also like [Warp](https://www.warp.dev), which is very fast (written in Rust) and has plenty of features (Mac only). Install with Brew. If I needed a cross-platform terminal, I would use Alacritty. It is hyper-customizable, and uses a .toml file for customizations. Install with brew.
 
+Settings I like are as follows:
+Appearance
+  - Theme
+    - Minimal
+Profiles
+  - Default
+  - General -> Working Directory -> Reuse previous session's directory
+  - Colors -> Basic Colors -> Foreground -> Gruvbox Dark
+  - Text -> Font -> Meslo LGS Nerd Font
+    - You can download this font [here](www.nerdfonts.com)
+    - I use this font in VS Code as well
+  - Text -> Font Size -> 14
+  - Keys -> Key Mappings -> Presets -> Natural Text Editing
+    - This allows me to use the keyboard shortcuts I know and love inside of iTerm2
+
+
 I use [zsh](https://www.zsh.org) as my shell. Mac has zsh as its default shell, but I like to download the most up-to-date version using brew. After installing, use the command ```chsh -s /usr/local/bin/zsh``` to activate this new shell. Also update this in VS Code settings.json.
 
 I also use [oh-my-zsh](https://github.com/clvv/oh-my-zsh) as a configuration framework for zsh. 
