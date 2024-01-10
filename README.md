@@ -58,21 +58,21 @@ A great choice for a security card reader is the Identiv [SCR3310v2](https://www
 
 These are my preferred settings for Finder and the Dock.
 
-# Finder
-Finder -> Preferences
-  - General -> Show these on the desktop -> Select None
-  - I try to keep my desktop completely clean.
-  - General -> New Finder windows show -> Home Folder
-  - I prefer to see my home folder in each new finder window instead of recent documents
-  - Advanced -> Show all filename extensions -> Yes
-  - Advanced -> Show warning before changing an extension -> No
-  - Advanced -> When performing a search -> Search the current folder
+### Finder
+  - Finder -> Preferences
+    - General -> Show these on the desktop -> Select None
+      - I try to keep my desktop completely clean.
+    - General -> New Finder windows show -> Home Folder
+      - I prefer to see my home folder in each new finder window instead of recent documents
+    - Advanced -> Show all filename extensions -> Yes
+    - Advanced -> Show warning before changing an extension -> No
+    - Advanced -> When performing a search -> Search the current folder
   - View
-  - Show Status Bar
-  - Show Path Bar
-  - Show Tab Bar
+    - Show Status Bar
+    - Show Path Bar
+    - Show Tab Bar
 
-# Dock
+### Dock
 
 
 
