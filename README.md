@@ -53,6 +53,32 @@ For a laptop bar, I plan to use a BenQ [Laptop Bar](https://www.benq.com/en-us/l
 
 A great choice for a security card reader is the Identiv [SCR3310v2](https://www.identiv.com/products/logical-access-control/smart-card-readers-writers/contact-smart-card-readers-writers/scr3310v2).
 
+
+### OS Settings
+
+These are my preferred settings for Finder and the Dock.
+
+# Finder
+Finder -> Preferences
+  - General -> Show these on the desktop -> Select None
+  - I try to keep my desktop completely clean.
+  - General -> New Finder windows show -> Home Folder
+  - I prefer to see my home folder in each new finder window instead of recent documents
+  - Advanced -> Show all filename extensions -> Yes
+  - Advanced -> Show warning before changing an extension -> No
+  - Advanced -> When performing a search -> Search the current folder
+  - View
+  - Show Status Bar
+  - Show Path Bar
+  - Show Tab Bar
+
+# Dock
+
+
+
+
+
+
 ### Browser
 
 For a browser, I use [Vivaldi](https://vivaldi.com), which I install using Brew. Vivaldi is a Chromium-based browser that offers better security and lots of features. I add several extensions: Save to Pocket for reading articles; daily.dev and hackertab.dev to keep track of developer news; octotree, to see github files in a tree format; github-vscode-icons; among others. I use hackertab.dev as my homepage. Another great option is the [Brave Browser](https://brave.com), another Chromium-based browser that offers excellent security.
