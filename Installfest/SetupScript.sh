@@ -39,6 +39,18 @@ ln -s ~/.config/bash/.bash_profile ~/.bash_profile # Symlink .bash_profile to $H
 ln -s ~/.config/bash/.bashrc ~/.bashrc # Symlink .bashrc to $HOME
 ln -s ~/.config/bash/.profile ~/.profile # Symlink .profile to $HOME
 chsh -s /usr/local/bin/bash # Change default shell to bash
+brew install zsh
+touch ~/.config/zsh/.zsh_profile
+touch ~/.config/zsh/.zshrc
+touch ~/.config/zsh/.zprofile
+touch ~/.config/zsh/.zshenv
+touch ~/.config/zsh/.zfunc
+touch ~/.config/zsh/.zsh_aliases
+touch ~/.config/zsh/.zsh_keybindings
+echo $SHELL
+brew install zsh
+echo $SHELL
+
 
 
 # #########################################
@@ -58,11 +70,16 @@ brew install wget
 touch ~/.config/wget/.wgetrc # Create .wgetrc in .config/wget
 echo 'export WGETRC="$XDG_CONFIG_HOME/wget/.wgetrc"' >> ~/.profile
 # Install git
+git --version
 brew install git # Git is a distributed version-control system for tracking changes in source code during software development
 brew install gh # GitHub CLI is a command line tool that enables you to use GitHub functionality in your terminal, including pull requests, issues, and releases
 brew install --cask github # GitHub Desktop is a fast and easy way to contribute to projects from macOS and Windows
 brew install --cask gitkraken # GitKraken is a Git GUI client for Windows, Mac & Linux
-
+# Open a new tab to check the new git version
+git --version
+git config --global user.name sethlabadie
+git config --global user.email sethlabadie@gmail.com
+git config --global core.editor code
 
 # #####################
 # install node tools  #
@@ -204,6 +221,8 @@ brew install --cask alfred # Alfred is a productivity application for macOS, whi
 brew install --cask malwarebytes # Malwarebytes is an anti-malware software for Microsoft Windows, macOS, Chrome OS, Android, and iOS that finds and removes malware
 brew install --cask swiftdefaultappsprefpane # SwiftDefaultApps is an application for macOS that allows you to change the default Web Browser, Mail app, Video Player, and Image Viewer to the ones of your choice
 brew install --cask balenaetcher # balenaEtcher is a free and open-source utility used for writing image files such as .iso and .img files, as well as zipped folders onto storage media to create live SD cards and USB flash drives
+brew install --cask rectangle
+brew install --cask alt-tab
 brew install gnu-sed # GNU sed is a Unix utility that parses and transforms text, using a simple, compact programming language
 brew install --cask handbrake # HandBrake is a free and open-source transcoder for digital video files, originally developed in 2003 by Eric Petit to make ripping a film from a DVD to a data storage device easier
 brew install --cask iina # IINA is a free and open-source media player for macOS
