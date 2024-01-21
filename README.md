@@ -53,6 +53,32 @@ For a laptop bar, I plan to use a BenQ [Laptop Bar](https://www.benq.com/en-us/l
 
 A great choice for a security card reader is the Identiv [SCR3310v2](https://www.identiv.com/products/logical-access-control/smart-card-readers-writers/contact-smart-card-readers-writers/scr3310v2).
 
+
+### OS Settings
+
+These are my preferred settings for Finder and the Dock.
+
+### Finder
+  - Finder -> Preferences
+    - General -> Show these on the desktop -> Select None
+      - I try to keep my desktop completely clean.
+    - General -> New Finder windows show -> Home Folder
+      - I prefer to see my home folder in each new finder window instead of recent documents
+    - Advanced -> Show all filename extensions -> Yes
+    - Advanced -> Show warning before changing an extension -> No
+    - Advanced -> When performing a search -> Search the current folder
+  - View
+    - Show Status Bar
+    - Show Path Bar
+    - Show Tab Bar
+
+### Dock
+
+
+
+
+
+
 ### Browser
 
 For a browser, I use [Vivaldi](https://vivaldi.com), which I install using Brew. Vivaldi is a Chromium-based browser that offers better security and lots of features. I add several extensions: Save to Pocket for reading articles; daily.dev and hackertab.dev to keep track of developer news; octotree, to see github files in a tree format; github-vscode-icons; among others. I use hackertab.dev as my homepage. Another great option is the [Brave Browser](https://brave.com), another Chromium-based browser that offers excellent security.
@@ -80,6 +106,22 @@ I also install [JupyterLab](https://jupyter.org) independently.
 
 ### Terminal Emulator & Shell
 For a terminal emulator, I use [iTerm2](https://iterm2.com). It is a very customizable and fast terminal (Mac only). install with Brew. Install new color themes [here](https://iterm2colorschemes.com) (try Gruvbox Dark). As an alternative option, I also like [Warp](https://www.warp.dev), which is very fast (written in Rust) and has plenty of features (Mac only). Install with Brew. If I needed a cross-platform terminal, I would use Alacritty. It is hyper-customizable, and uses a .toml file for customizations. Install with brew.
+
+Settings I like are as follows:
+Appearance
+  - Theme
+    - Minimal
+Profiles
+  - Default
+  - General -> Working Directory -> Reuse previous session's directory
+  - Colors -> Basic Colors -> Foreground -> Gruvbox Dark
+  - Text -> Font -> Meslo LGS Nerd Font
+    - You can download this font [here](www.nerdfonts.com)
+    - I use this font in VS Code as well
+  - Text -> Font Size -> 14
+  - Keys -> Key Mappings -> Presets -> Natural Text Editing
+    - This allows me to use the keyboard shortcuts I know and love inside of iTerm2
+
 
 I use [zsh](https://www.zsh.org) as my shell. Mac has zsh as its default shell, but I like to download the most up-to-date version using brew. After installing, use the command ```chsh -s /usr/local/bin/zsh``` to activate this new shell. Also update this in VS Code settings.json.
 
