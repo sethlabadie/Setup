@@ -5,6 +5,7 @@ __pycache__/
 .ipynb_checkpoints/
 setup.py
 pip-wheel-metadata/
+.DS_Store
 
 # Temporary OS files
 Icon*
@@ -16,6 +17,7 @@ tmp/
 
 # Temporary server files
 .env
+.direnv
 *.pid
 
 # Generated documentation
